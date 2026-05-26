@@ -87,20 +87,12 @@ document.getElementById('app').innerHTML = `
 <!-- DESKTOP HEADER -->
 <header>
   <div class="header-inner">
-    <a href="#" class="logo-text">Canadian<span>Outlet</span></a>
+    <a href="#" class="logo-text">invo<span> deals</span></a>
     <div class="search-bar">
       <input type="text" placeholder="Search phones, laptops, tablets..."/>
       <span class="search-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></span>
     </div>
     <div class="header-actions">
-      <a href="#" class="header-icon-btn">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-        Account
-      </a>
-      <a href="#" class="header-icon-btn">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-        Cart
-      </a>
       <a href="tel:+16462432447" class="header-phone-btn">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.6a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17.92v-.01z"/></svg>
         +1 646-243-2447
@@ -123,10 +115,8 @@ document.getElementById('app').innerHTML = `
 <!-- MOBILE HEADER -->
 <div class="mobile-header">
   <div class="mobile-top">
-    <a href="#" class="logo-text">Canadian<span style="color:#0066cc">Outlet</span></a>
+    <a href="#" class="logo-text">invo<span style="color:#0066cc"> deals</span></a>
     <div class="mobile-actions">
-      <a href="#" class="mob-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a>
-      <a href="#" class="mob-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></a>
       <button class="mob-btn" id="mob-menu-btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
     </div>
   </div>
@@ -137,7 +127,7 @@ document.getElementById('app').innerHTML = `
 <div class="mobile-menu-overlay" id="mobile-menu">
   <div class="mobile-menu-panel">
     <div class="mobile-menu-head">
-      <span class="logo-text">Canadian<span style="color:#0066cc">Outlet</span></span>
+      <span class="logo-text">invo<span style="color:#0066cc"> deals</span></span>
       <button class="mobile-close" id="mob-close-btn">✕</button>
     </div>
     ${navItems.map(item=>`
@@ -414,7 +404,7 @@ document.getElementById('app').innerHTML = `
       <div class="market-logo amz">amazon</div>
       <div class="market-info">
         <h3>Shop with Confidence from a Trusted Amazon Seller</h3>
-        <p>Discover a world of quality products at Canadian Outlet, your reliable Amazon seller across Canada. We pride ourselves on offering top-rated items with exceptional service and fast shipping. Your satisfaction is our priority.</p>
+        <p>Discover a world of quality products at invo deals, your reliable Amazon seller across Canada. We pride ourselves on offering top-rated items with exceptional service and fast shipping. Your satisfaction is our priority.</p>
         <a href="#" class="btn-outline">Visit Amazon Storefront →</a>
         <a href="#" class="btn-outline">Visit Amazon Renewed →</a>
       </div>
@@ -422,8 +412,8 @@ document.getElementById('app').innerHTML = `
     <div class="market-card">
       <div class="market-logo wmt">walmart</div>
       <div class="market-info">
-        <h3>Shop the Best at Canadian Outlet on Walmart</h3>
-        <p>Canadian Outlet is proud to be a top Walmart seller, offering an unbeatable selection of high-quality products. Our commitment to excellence ensures you receive the best value and service with every purchase.</p>
+        <h3>Shop the Best at invo deals on Walmart</h3>
+        <p>invo deals is proud to be a top Walmart seller, offering an unbeatable selection of high-quality products. Our commitment to excellence ensures you receive the best value and service with every purchase.</p>
         <a href="#" class="btn-outline">Shop on Walmart →</a>
       </div>
     </div>
@@ -444,8 +434,8 @@ document.getElementById('app').innerHTML = `
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <span class="footer-brand-logo">Canadian<span>Outlet</span></span>
-      <p>Toronto's trusted electronics store. Shop brand new smartphones, laptops, tablets, wearables and more at unbeatable prices. Free shipping available.</p>
+      <span class="footer-brand-logo">invo<span> deals</span></span>
+      <p>Mississauga's trusted electronics store. Shop brand new smartphones, laptops, tablets, wearables and more at unbeatable prices. Free shipping available.</p>
       <div class="footer-contact">
         <div class="footer-contact-row">
           <span class="footer-contact-icon">📞</span>
@@ -453,7 +443,7 @@ document.getElementById('app').innerHTML = `
         </div>
         <div class="footer-contact-row">
           <span class="footer-contact-icon">✉️</span>
-          <div><a href="#">info@canadianoutlet.com</a></div>
+          <div><a href="#">info@invodeals.com</a></div>
         </div>
         <div class="footer-contact-row">
           <span class="footer-contact-icon">📍</span>
@@ -520,7 +510,7 @@ document.getElementById('app').innerHTML = `
   </div>
   <div class="footer-bottom-bar">
     <div class="footer-bottom-inner">
-      <p>© 2026 Canadian Outlet. All rights reserved. 6660 Kennedy Rd #23, Mississauga, ON L5T 2M9, Canada.</p>
+      <p>© 2026 invo deals. All rights reserved. 6660 Kennedy Rd #23, Mississauga, ON L5T 2M9, Canada.</p>
       <div class="footer-legal">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Use</a>
