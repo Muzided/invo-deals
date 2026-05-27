@@ -87,7 +87,7 @@ document.getElementById('app').innerHTML = `
 <!-- DESKTOP HEADER -->
 <header>
   <div class="header-inner">
-    <a href="#" class="logo-text">invo<span> deals</span></a>
+    <a href="#" class="logo-link"><img src="/logo.jpeg" alt="innovodeals" class="logo-img"/></a>
     <div class="search-bar">
       <input type="text" placeholder="Search phones, laptops, tablets..."/>
       <span class="search-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></span>
@@ -115,7 +115,7 @@ document.getElementById('app').innerHTML = `
 <!-- MOBILE HEADER -->
 <div class="mobile-header">
   <div class="mobile-top">
-    <a href="#" class="logo-text">invo<span style="color:#0066cc"> deals</span></a>
+    <a href="#" class="logo-link"><img src="/logo.jpeg" alt="innovodeals" class="logo-img mobile-logo-img"/></a>
     <div class="mobile-actions">
       <button class="mob-btn" id="mob-menu-btn"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
     </div>
@@ -127,7 +127,7 @@ document.getElementById('app').innerHTML = `
 <div class="mobile-menu-overlay" id="mobile-menu">
   <div class="mobile-menu-panel">
     <div class="mobile-menu-head">
-      <span class="logo-text">invo<span style="color:#0066cc"> deals</span></span>
+      <img src="/logo.jpeg" alt="innovodeals" class="logo-img mobile-logo-img"/>
       <button class="mobile-close" id="mob-close-btn">✕</button>
     </div>
     ${navItems.map(item=>`
@@ -404,7 +404,7 @@ document.getElementById('app').innerHTML = `
       <div class="market-logo amz">amazon</div>
       <div class="market-info">
         <h3>Shop with Confidence from a Trusted Amazon Seller</h3>
-        <p>Discover a world of quality products at invo deals, your reliable Amazon seller across Canada. We pride ourselves on offering top-rated items with exceptional service and fast shipping. Your satisfaction is our priority.</p>
+        <p>Discover a world of quality products at innovodeals, your reliable Amazon seller across Canada. We pride ourselves on offering top-rated items with exceptional service and fast shipping. Your satisfaction is our priority.</p>
         <a href="#" class="btn-outline">Visit Amazon Storefront →</a>
         <a href="#" class="btn-outline">Visit Amazon Renewed →</a>
       </div>
@@ -412,8 +412,8 @@ document.getElementById('app').innerHTML = `
     <div class="market-card">
       <div class="market-logo wmt">walmart</div>
       <div class="market-info">
-        <h3>Shop the Best at invo deals on Walmart</h3>
-        <p>invo deals is proud to be a top Walmart seller, offering an unbeatable selection of high-quality products. Our commitment to excellence ensures you receive the best value and service with every purchase.</p>
+        <h3>Shop the Best at innovodeals on Walmart</h3>
+        <p>innovodeals is proud to be a top Walmart seller, offering an unbeatable selection of high-quality products. Our commitment to excellence ensures you receive the best value and service with every purchase.</p>
         <a href="#" class="btn-outline">Shop on Walmart →</a>
       </div>
     </div>
@@ -434,7 +434,7 @@ document.getElementById('app').innerHTML = `
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <span class="footer-brand-logo">invo<span> deals</span></span>
+      <img src="/logo.jpeg" alt="innovodeals" class="footer-logo-img"/>
       <p>Mississauga's trusted electronics store. Shop brand new smartphones, laptops, tablets, wearables and more at unbeatable prices. Free shipping available.</p>
       <div class="footer-contact">
         <div class="footer-contact-row">
@@ -443,7 +443,7 @@ document.getElementById('app').innerHTML = `
         </div>
         <div class="footer-contact-row">
           <span class="footer-contact-icon">✉️</span>
-          <div><a href="#">info@invodeals.com</a></div>
+          <div><a href="#">info@innovodeals.com</a></div>
         </div>
         <div class="footer-contact-row">
           <span class="footer-contact-icon">📍</span>
@@ -510,7 +510,7 @@ document.getElementById('app').innerHTML = `
   </div>
   <div class="footer-bottom-bar">
     <div class="footer-bottom-inner">
-      <p>© 2026 invo deals. All rights reserved. 6660 Kennedy Rd #23, Mississauga, ON L5T 2M9, Canada.</p>
+      <p>© 2026 innovodeals. All rights reserved. 6660 Kennedy Rd #23, Mississauga, ON L5T 2M9, Canada.</p>
       <div class="footer-legal">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Use</a>
