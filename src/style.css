@@ -58,7 +58,7 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
-  height: 66px;
+  height: 78px;
 }
 .logo-text {
   font-size: 19px;
@@ -69,8 +69,8 @@ header {
 }
 .logo-text span { color: var(--blue); }
 .logo-link { display: inline-flex; align-items: center; }
-.logo-img { height: 48px; width: auto; display: block; }
-.mobile-logo-img { height: 40px; }
+.logo-img { height: 60px; width: auto; display: block; }
+.mobile-logo-img { height: 50px; }
 .search-bar {
   flex: 1;
   max-width: 520px;
